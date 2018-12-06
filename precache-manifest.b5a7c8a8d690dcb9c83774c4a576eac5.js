@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/quince-react/static/js/runtime~main.c85c8174.js"
   },
   {
-    "revision": "e2b8c9ce94256e0be465",
-    "url": "/quince-react/static/js/main.e2b8c9ce.chunk.js"
+    "revision": "7418d6dabb3a89c63132",
+    "url": "/quince-react/static/js/main.7418d6da.chunk.js"
   },
   {
     "revision": "259a708ff9367f32473c",
     "url": "/quince-react/static/js/1.259a708f.chunk.js"
   },
   {
-    "revision": "e2b8c9ce94256e0be465",
-    "url": "/quince-react/static/css/main.a891fe38.chunk.css"
+    "revision": "7418d6dabb3a89c63132",
+    "url": "/quince-react/static/css/main.0032ac16.chunk.css"
   },
   {
-    "revision": "7f16d8cb4cf5dacdafb69a270dffc931",
+    "revision": "cedf09f8d84e2f41f5d341f2a056b8fa",
     "url": "/quince-react/index.html"
   }
 ];
