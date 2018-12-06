@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/quince-react/precache-manifest.e67c63aa105752d3f45590d6b553d53a.js"
+  "/quince-react/precache-manifest.b5a7c8a8d690dcb9c83774c4a576eac5.js"
 );
 
 workbox.clientsClaim();

@@ -20,12 +20,14 @@ main {
 	position: relative;
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	min-width: 1000px;
 	height: calc(100vh - 60px);
+	padding: 60px 0;
 }
 
 main .wrapper {
+	display: flex;
+	flex-direction: column;
 	width: 1000px;
 	padding: 40px;
 	border-radius: 20px;
@@ -34,6 +36,7 @@ main .wrapper {
 }
 
 main .wrapper .btn-add {
+	align-self: flex-start;
 	display: block;
 	height: 40px;
 	margin-bottom: 20px;
@@ -73,8 +76,21 @@ main .wrapper .list-header .cell:last-child {
 }
 
 main .wrapper .list-header .name-job {
+	display: flex;
+	justify-content: space-between;
 	flex-basis: 420px;
 	padding-left: 15px;
+	padding-right: 15px;
+	cursor: pointer;
+}
+
+main .wrapper .list-header .name-job:hover {
+	background-color: #e3f1ff;
+}
+
+main .wrapper .list-header .name-job .arrow {
+	font-size: 16px;
+	font-weight: bold;
 }
 
 main .wrapper .list-header .age {
@@ -98,10 +114,10 @@ main .wrapper .list-header .delete {
 }
 
 main .wrapper .persons-list {
+  flex: 1;
   display: block;
-  height: 482px;
-	border: 1px solid rgb(233, 233, 233);
-	overflow-y: auto;
+  border: 1px solid #e9e9e9;
+  overflow-y: auto;
 }
 
 main .wrapper .data-dump {
@@ -111,13 +127,13 @@ main .wrapper .data-dump {
 
 main .wrapper textarea {
 	width: 100%;
-	height: 100px;
+	height: 108px;
 	padding: 5px;
 	background-color: white;
 	color: #3c3c3c;
 	border: 1px solid rgb(200, 200, 200);
 	font-family: monospace;
-	font-size: 16px;
+	font-size: 12px;
 	outline: none;
 	resize: none;
   transition: all 1000ms;
